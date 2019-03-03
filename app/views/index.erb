@@ -1,0 +1,9 @@
+<html>
+  <body>
+    <h1> Index Articles </h1>
+      <% @articles.each do |a| %>
+        <h2><%= a.title%></h2>
+        <h3><%= a.content%></h3>
+      <% end %>
+  </body>
+</html>
